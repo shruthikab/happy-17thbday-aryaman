@@ -1,0 +1,103 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#89e6ad,  #cef7be);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 3px black;
+}
+
+#aryaman-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #186736;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background:#186736;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background:#186736;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.webp");
+    background-size: cover;
+}
+
+#gift-elmo:hover {
+    background-image: url("images/elmo.webp");
+}
+
+#gift-fascinated:hover {
+    background-image: url("images/fascinated.webp");
+    background-size: 560px;
+   
+}
+
+#gift-pedro:hover {
+    background-image: url("images/pedro.webp");
+}
+
+#gift-model:hover {
+    background-image: url("images/model.webp");
+}
+
+#gift-kanye:hover {
+    background-image: url("images/kanye.webp");
+}
+
+#gift-cake:hover {
+    background-image: url("images/cake.webp");
+}
+
+#footer {
+    text-shadow: 0px 0px 0px white;
+    color: #186736;
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+   
+}
+
+a {
+    color: white;
+}
+
